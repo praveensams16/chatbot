@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bot-code
+data:
+  app.py: |
+    {{ range .Files.Lines "files/app.py" }}
+    {{ .  -}}
+    {{ end }}
