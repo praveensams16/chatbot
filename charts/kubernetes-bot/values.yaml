@@ -11,8 +11,8 @@ image:
   tag: "chatbot-logging"
 
 creds:
-  SLACK_APP_TOKEN: xapp-1-A04JM71HTG8-4609580103122-55504b1804d2f03aedb09682ca48a111a669c2b7378c705f4b837c4d69c376de
-  SLACK_BOT_TOKEN: xoxb-2213107901956-4633241445968-ptuCDDG27Y6S7Iw2qNmdk1iL
+  SLACK_APP_TOKEN: xapp
+  SLACK_BOT_TOKEN: xoxb
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
